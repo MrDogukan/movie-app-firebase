@@ -12,6 +12,7 @@ const Register = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(firstName, lastName);
     createUser(email, password, navigate);
   };
   return (
