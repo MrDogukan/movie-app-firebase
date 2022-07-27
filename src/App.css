@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins","sans-serif";
+}
+
+.logo img{
+    width: 100px;
+}
+.logo img:hover{
+    transform: scale(1.1);
+}
+.register-form{
+    width: 40%;
+}
+.form-image{
+    width: 60%;
+    height: 90vh;
+}
+.form-image img{
+    width: 100%;
+    height: 100%;
+}
+.login-container{
+    width: 80%;
+    max-width: 480px;
+}
+.googleIcon{
+    font-size: 1.2rem;
+}
+.movie{
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+}
+.movie img{
+    width: 100%;
+    /* height: 350px; */
+    max-width: 325px;
+    object-fit: cover;
+}
+.subtitle{
+    width: 100%;
+    height: 4.5rem;
+    margin: auto;
+    position: relative;
+}
+
+ .tag.green {
+    background-color: #1b5e20 !important;
+    width:2rem ;
+    border-radius: 7px;
+  }
+  
+  .tag.orange {
+    background-color: #f57f17 !important;
+    width:2rem;
+    border-radius: 7px;
+
+  }
+  
+  .tag.red {
+    background-color: #7f0000 !important;
+    width:2rem;
+    border-radius: 7px;
+  }
+  .movie-over{
+    position: absolute;
+    left: 0;
+    bottom:72px;
+    background-color: rgba(240,240,240,0.7);
+    transform: scale(0);
+    transition: transform 0.3s ease-in;
+    overflow: auto;
+    max-height: 20rem;
+    
+  }
+  .movie:hover .movie-over{
+    transform: scale(1);
+    transition: transform 0.3s ease-in;
+    z-index: 10;
+  }
+
+  .search input{
+    width: 80%;
+    max-width: 400px;
+  }
+  .navbar{
+    padding: 0;
+  }
+
+@media (max-width:577px) {
+    .movie{
+        width: 70%;
+    }
+
+}
+
+@media (max-width:767px) {
+    .register-form{
+        width: 70%;
+    }
+    .detailImg img{
+       margin: auto;
+    }
+    .detailImg img{
+        height: 350px;
+    }
+}
