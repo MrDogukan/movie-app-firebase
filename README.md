@@ -11,4 +11,4 @@
 * __useNavigate()__<br>
 * __Toastify__<br>
 * __Bootstrap5__<br>
-<div align="center"><img src="https://github.com/MehmetCakir1/movieAppWithFirebase/blob/master/movieAppFirebase.gif">
+<div align="center"><img src="https://github.com/MrDogukan/movie-app-firebase/blob/master/movie-app.gif">
